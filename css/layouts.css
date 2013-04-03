@@ -1,0 +1,11 @@
+@charset "IBM866";
+@font-face { font-family: 'plumbboldc'; src: url("../fonts/plumbboldc-webfont.eot"); src: local("☺"), url("../fonts/plumbboldc-webfont.woff") format("woff"), url("../fonts/plumbboldc-webfont.ttf") format("truetype"), url("../fonts/plumbboldc-webfont.svg") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'plumblightc'; src: url("../fonts/plumblightc-webfont.eot"); src: local("☺"), url("../fonts/plumblightc-webfont.woff") format("woff"), url("../fonts/plumblightc-webfont.ttf") format("truetype"), url("../fonts/plumblightc-webfont.svg") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'plumbmediumc'; src: url("../fonts/plumbmediumc-webfont.eot"); src: local("☺"), url("../fonts/plumbmediumc-webfont.woff") format("woff"), url("../fonts/plumbmediumc-webfont.ttf") format("truetype"), url("../fonts/plumbmediumc-webfont.svg") format("svg"); font-weight: normal; font-style: normal; }
+
+/* default layout */
+.l { width: 100%; display: inline-block; }
+.l .l-col1 { float: left; width: 20%; }
+.l .l-col2 { float: right; width: 70%; }

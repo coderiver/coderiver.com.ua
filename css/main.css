@@ -1,0 +1,70 @@
+@charset "IBM866";
+@font-face { font-family: 'plumbboldc'; src: url("../fonts/plumbboldc-webfont.eot"); src: local("☺"), url("../fonts/plumbboldc-webfont.woff") format("woff"), url("../fonts/plumbboldc-webfont.ttf") format("truetype"), url("../fonts/plumbboldc-webfont.svg") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'plumblightc'; src: url("../fonts/plumblightc-webfont.eot"); src: local("☺"), url("../fonts/plumblightc-webfont.woff") format("woff"), url("../fonts/plumblightc-webfont.ttf") format("truetype"), url("../fonts/plumblightc-webfont.svg") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'plumbmediumc'; src: url("../fonts/plumbmediumc-webfont.eot"); src: local("☺"), url("../fonts/plumbmediumc-webfont.woff") format("woff"), url("../fonts/plumbmediumc-webfont.ttf") format("truetype"), url("../fonts/plumbmediumc-webfont.svg") format("svg"); font-weight: normal; font-style: normal; }
+
+body { background-color: #004054; }
+
+.clr { clear: both; }
+
+.content { max-width: 782px; margin: 0 auto; padding: 90px 1% 65px; }
+@media only screen and (max-width: 510px) { .content { padding: 30px 1% 65px; margin: 0 2%; } }
+
+h1 { display: block; height: 65px; margin-bottom: 38px; color: #d3f6ff; font: normal 54px "plumbmediumc", sans-serif; -webkit-mask-image: -webkit-linear-gradient(black 48%, rgba(0, 0, 0, 0.4) 78%); }
+h1 .h1__light { position: relative; font-family: 'plumblightc',sans-serif; font-weight: normal; }
+h1 .alpha { position: absolute; top: -5px; left: 145px; font-size: 27px; font-style: italic; }
+@media only screen and (max-width: 510px) { h1 .alpha { left: 135px; } }
+@media only screen and (max-width: 510px) { h1 { font-size: 48px; } }
+
+h3 { padding-bottom: 22px; font: normal 34px "plumblightc", sans-serif; color: #fff; }
+@media only screen and (max-width: 510px) { h3 { font-size: 30px; } }
+
+.about { float: left; width: 74%; margin-bottom: 50px; font: 16px "Myriad Pro", sans-serif; color: #6bb0c6; }
+@media only screen and (max-width: 510px) { .about { float: none; width: 100%; margin-bottom: 20px; } }
+
+.gimme { float: right; display: inline-block; height: 40px; width: 139px; margin-right: 18px; text-align: center; text-transform: uppercase; text-decoration: none; font: normal 18px "plumbboldc", sans-serif; cursor: pointer; background: #004054; border: 1px solid #235a6b; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; color: #fff; }
+.gimme span { border-bottom: 1px dashed white; line-height: 36px; font-size: 15px; }
+@media only screen and (max-width: 782px) { .gimme { float: left; margin-bottom: 3%; } }
+@media only screen and (max-width: 510px) { .gimme { float: none; margin-bottom: 3%; } }
+
+h2 { clear: both; color: #fff; font: normal 36px "plumblightc", sans-serif; }
+
+.tech { height: 100%; margin: 12px 0 42px 0; overflow: hidden; }
+
+.tech__item { float: left; width: 23%; margin-right: 2%; }
+.tech__item:last-child { margin-right: 0; }
+.tech__item:nth-child(2n+1) { padding-right: 5px; }
+.tech__item h2 { font-family: 'plumbboldc',sans-serif; text-transform: uppercase; padding-bottom: 10px; color: #A1DAE8; -webkit-mask-image: -webkit-linear-gradient(top, #a8dae8, rgba(0, 0, 0, 0.5) 40%); }
+.tech__item h2 span { font-family: 'plumblightc',sans-serif; }
+.tech__item article { font-family: 'Myriad Pro',sans-serif; font-size: 13px; line-height: 1.2; color: #fff; }
+@media only screen and (max-width: 782px) { .tech__item { margin-right: 1%; } }
+@media only screen and (max-width: 510px) { .tech__item { width: 48%; margin-bottom: 20px; } }
+
+.knowledge { font: 16px "Myriad Pro", sans-serif; color: #6bb0c6; }
+
+.footer { padding: 38px 0 64px; background-color: #1a5365; }
+.footer .l-footer { max-width: 782px; margin: 0 auto; overflow: hidden; }
+@media only screen and (max-width: 782px) { .footer .l-footer { overflow: visible; } }
+@media only screen and (max-width: 510px) { .footer .l-footer { overflow: visible; margin: 0 2%; } }
+.footer h3 { font-family: 'plumbmediumc',sans-serif; }
+@media only screen and (max-width: 782px) { .footer { width: 100%; } }
+@media only screen and (max-width: 510px) { .footer { width: 100%; } }
+
+.contacts { float: left; width: 240px; margin-top: 13px; }
+.contacts p { margin-bottom: 7px; font: 16px "Myriad Pro"; color: #6bb0c6; }
+.contacts .contacts__email, .contacts .contacts__phone { font-size: 24px; color: #fff; text-decoration: none; }
+.contacts .contacts__phone { margin-top: 7px; }
+@media only screen and (max-width: 510px) { .contacts { float: none; } }
+
+.feedback { position: relative; float: right; width: 61%; margin-top: 13px; }
+.feedback p { margin-bottom: 20px; font: 16px "Myriad Pro"; color: #6bb0c6; }
+.feedback input { position: absolute; height: 40px; border: 0; outline: none; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; }
+.feedback .feedback__text { left: 0; width: 70%; padding-left: 13px; background: #7698a3; color: #004054; line-height: 40px; box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.3); }
+.feedback .feedback__text.placeholder { color: #004054; }
+.feedback .feedback__text:-moz-placeholder { color: #004054; }
+.feedback .feedback__text::-webkit-input-placeholder { color: #004054; }
+.feedback .feedback__submit { right: 0; z-index: 2; width: 139px; cursor: pointer; color: #004054; font: normal 16px "plumbboldc", sans-serif; text-transform: uppercase; text-shadow: 0 1px 0 white; background: white; background: -moz-linear-gradient(top, white 0%, #a1dae8 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #a1dae8)); background: -webkit-linear-gradient(top, white 0%, #a1dae8 100%); background: -o-linear-gradient(top, white 0%, #a1dae8 100%); background: -ms-linear-gradient(top, white 0%, #a1dae8 100%); background: linear-gradient(top, #ffffff 0%, #a1dae8 100%); }
+@media only screen and (max-width: 782px) { .feedback { float: left; width: 61%; } }
+@media only screen and (max-width: 510px) { .feedback { float: none; width: 100%; } }
